@@ -9,7 +9,6 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
     --foreground: #ededed;
   }
 }
@@ -17,5 +16,18 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Nunito, Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.custom-margin {
+  margin: 1rem;
+}
+
+.margin-nav {
+  margin-left: 2rem;
+}
+
+.margin-nav2 {
+  margin-right: 2rem;
 }
