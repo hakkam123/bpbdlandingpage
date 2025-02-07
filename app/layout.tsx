@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
 import "./globals.css";
-import Navbar from "./_components/navbar";
+// import Navbar from "./_components/navbar";
+
 
 const nunito = Nunito({ subsets: ["latin"] });
 
@@ -14,8 +15,7 @@ export default function Layout({children} : {children: React.ReactNode}) {
   return (
     <html lang="en" className={nunito.className}>
     <body>
-      <Navbar />
-      <main className="custom-margin">{children}</main>
+      {children}
     </body>
   </html>
   );

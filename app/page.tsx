@@ -7,10 +7,12 @@ import s3 from '../public/layanan.svg';
 import about from '../public/about us.svg';
 import chose from '../public/chose ranah.svg';
 import map from '../public/map.svg';
+import Navbar from "./_components/navbar";
 
 export default function Home() {
   return (
     <main>
+      <Navbar />
       <section className="flex flex-col md:flex-row items-center justify-between p-6 md:p-12">
         <div className="md:w-1/2 space-y-6">
           <h1 className="text-black text-4xl md:text-5xl font-bold">
